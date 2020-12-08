@@ -11,6 +11,5 @@ let package = Package(
         targets: [
             .target(name: "Prelude", dependencies: [], path: "Prelude"),
             .testTarget(name: "PreludeTests", dependencies: ["Prelude"], path: "PreludeTests")
-        ],
-        swiftLanguageVersions: [3]
+        ]
 )
